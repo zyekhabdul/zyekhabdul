@@ -1,4 +1,4 @@
-name: Latest Blog Posts Workflow
+name: Profile Sync & Blog Posts Workflow
 
 on:
   schedule:
@@ -10,12 +10,27 @@ permissions:
   contents: write
 
 jobs:
-  update-readme-with-blog:
-    name: Update README with latest blog posts from zyekh.com
+  sync-profile-and-blog:
+    name: Sync SVG stats and blog posts
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Update Dynamic Stats SVGs
+        run: |
+          mkdir -p assets
+          curl -s --max-time 15 "https://github-readme-stats.shion.dev/api?username=zyekhabdul&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" -o assets/github-stats.svg || true
+          curl -s --max-time 15 "https://github-readme-stats.shion.dev/api/top-langs/?username=zyekhabdul&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs.svg || true
+          curl -s --max-time 15 "https://streak-stats.demolab.com/?user=zyekhabdul&theme=tokyonight&hide_border=true" -o assets/streak-stats.svg || true
+
+      - name: Commit Updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git commit -m "chore(stats): auto-refresh metrics SVGs [skip ci]" || echo "No SVG changes"
+
       - name: Fetch and Inject RSS Posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:

@@ -46,12 +46,12 @@ Senior Systems Architect, Digital Forensics Researcher, and Autonomous Agent Inf
 ## [ METRICS & STATS ]
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=zyekhabdul&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="zyekhabdul GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zyekhabdul&layout=compact&theme=tokyonight&hide_border=true" alt="zyekhabdul Top Languages" height="165" />
+  <img src="./assets/github-stats.svg" alt="zyekhabdul GitHub Stats" height="165" />
+  <img src="./assets/top-langs.svg" alt="zyekhabdul Top Languages" height="165" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zyekhabdul&theme=tokyonight&hide_border=true" alt="zyekhabdul Contribution Streak" height="165" />
+  <img src="./assets/streak-stats.svg" alt="zyekhabdul Contribution Streak" height="165" />
 </p>
 
 ---
