@@ -77,12 +77,11 @@ Senior Systems Architect, Digital Forensics Researcher, and Autonomous Agent Inf
 Recent technical articles published on [zyekh.com/blog](https://zyekh.com/blog/):
 
 <!-- BLOG-POST-LIST:START -->
-- [Account Abstraction (ERC-4337): Smart Accounts, Bundlers & Paymaster Engineering](https://zyekh.com/blog/account-abstraction-erc-4337-and-paymasters-architecture.html)
-- [Cross-Chain Bridges & Light Client Verification: Cryptographic State Proofs](https://zyekh.com/blog/cross-chain-bridges-and-light-client-cryptographic-verification.html)
+- [Account Abstraction &lpar;ERC-4337&rpar;: Smart Accounts, Bundlers &amp; Paymaster Engineering](https://zyekh.com/blog/account-abstraction-erc-4337-and-paymasters-architecture.html)
+- [Cross-Chain Bridges &amp; Light Client Verification: Cryptographic State Proofs](https://zyekh.com/blog/cross-chain-bridges-and-light-client-cryptographic-verification.html)
 - [Database Storage Engine Internals: LSM-Trees vs B+ Trees Read/Write Amplification](https://zyekh.com/blog/database-internals-lsm-trees-vs-b-trees-storage-engines.html)
-- [Bypassing Modern EDR via Indirect Syscalls & Process Ghosting](https://zyekh.com/blog/edr-bypass-indirect-syscalls-process-ghosting.html)
-- [Zero-Trust Linux Kernel Security: eBPF LSM Hooks Architecture](https://zyekh.com/blog/linux-kernel-security-ebpf-lsm-hooks.html)
-<!-- BLOG-POST-LIST:END -->
+- [DeFi AMM Mathematics &amp; Concentrated Liquidity: Invariant Curves &amp; Tick Spacing](https://zyekh.com/blog/defi-amm-mathematics-and-concentrated-liquidity-mechanics.html)
+- [Distributed Consensus Deep-Dive: Raft, Multi-Paxos &amp; Leaderless Quorum Systems](https://zyekh.com/blog/distributed-consensus-raft-vs-paxos-and-leaderless-quorums.html)<!-- BLOG-POST-LIST:END -->
 
 ---
 
